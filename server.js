@@ -5,7 +5,7 @@ require('dotenv').config();
 
 
 const corsOptions={
-    origin: process.env.CLIENT_PORT
+    origin: "https://6348a3adc723983000192f9f--hemantkumbhar10.netlify.app/"
 }
 
 const app = express();
