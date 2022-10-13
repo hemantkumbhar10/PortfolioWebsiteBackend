@@ -28,6 +28,6 @@ require('./routes/ResumeRoute/resume.routes')(app);
 
 
 
-app.listen(8081, ()=>{
+app.listen(process.env.PORT || 5000, ()=>{
     console.log('Portfolio app started');
 })
