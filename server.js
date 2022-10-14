@@ -5,7 +5,8 @@ require('dotenv').config();
 
 
 const corsOptions={
-    origin: "https://6348a3adc723983000192f9f--hemantkumbhar10.netlify.app/"
+    origin: "https://6348a3adc723983000192f9f--hemantkumbhar10.netlify.app/",
+    credentials:true, 
 }
 
 const app = express();
