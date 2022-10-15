@@ -6,7 +6,7 @@ const app = express();
 
 
 const corsOptions={
-    origin: process.env.CLIENT_PORT,
+    origin: `${process.env.CLIENT_PORT}`,
     credentials:true, 
 }
 
