@@ -6,7 +6,7 @@ const app = express();
 
 
 const corsOptions={
-    origin: "https://www.hemantkumbhar.com/",
+    origin: process.env.CLIENT_PORT,
     credentials:true, 
 }
 
